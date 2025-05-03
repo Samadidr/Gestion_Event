@@ -1,0 +1,104 @@
+/* Réinitialisation de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f8ff; /* Bleu clair */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Conteneur principal */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    flex-direction: column;
+}
+
+/* Liste des événements */
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+li {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+li h3 {
+    color: #007BFF;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+li p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+li a.btn {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+li a.btn:hover {
+    background: #0056b3;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+header h1 {
+    color: #007BFF;
+    font-size: 2rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.back-home-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.back-home-btn:hover {
+    background-color: #218838;
+}

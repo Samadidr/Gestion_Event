@@ -1,0 +1,53 @@
+.create-event {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.create-event h2 {
+    color: #007BFF;
+    margin-bottom: 1rem;
+}
+
+.create-event .form-box {
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+    max-width: 500px;
+    width: 100%;
+}
+
+.create-event .form-group {
+    margin-bottom: 1rem;
+}
+
+.create-event .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.create-event .form-group input,
+.create-event .form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.create-event .btn-primary {
+    background: #007BFF;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.create-event .btn-primary:hover {
+    background: #0056b3;
+}
