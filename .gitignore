@@ -1,5 +1,5 @@
-/vendor/
 .env
-.DS_Store
+config.php
 *.log
-
+vendor/
+.DS_Store

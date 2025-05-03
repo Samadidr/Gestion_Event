@@ -1,4 +1,3 @@
-# Gestion_Event
+# EventBladi – Gestion d'Événements
 
-Projet de gestion d'événements développé en PHP (site EventBladi).
-
+EventBladi est une application web...
